@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+
+/* 
+  #EDE6DB
+  #417D7A
+  #1D5C63
+  #1A3C40
+
+*/
+/* --------------Nav Bar Start------------- */
+s
+H2{
+  color: #1A3C40;
+}
+nav{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;  
+  }
+  
+  
+  nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1A3C40;
+    min-width: 18%!important;
+    border-radius: 2px;
+    border: 1px solid #1A3C40;
+    width: 100%;
+  }
+  nav form .search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: rgb(255, 255, 255);
+  }
+  
+  nav form .search-data:hover{
+    background: white;
+    color: rgb(0, 0, 0);
+  }
+  
+  nav form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 17px;
+    background: #417D7A;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  nav form button:hover{
+    background: white;
+    color: black;
+  }
+  
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav .search-icon{
+    width: 100%;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+
+
+
+body{
+  background-color: #EDE6DB;
+  font-family: 'Open Sans', sans-serif;
+}
+.card_enclose{
+    margin: 20 20 20 20 ;
+    
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    
+}
+    
+  
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+
+  .avatar{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .flex-parent {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+
+  .button-right {
+    margin-right: 90px;
+    background-color: #ee6a61; /* Green */
+  border: none;
+  width: 30%;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  }
+  .button-left{
+    background-color: #8eef91; /* Green */
+  border: none;
+  color: white;
+  width: 30%;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  }
+
+  .button-right:hover {
+    background-color: #ff1100;
+  
+  }
+  .button-left:hover{
+    background-color: #0ee916;
+  }
+
+  .download{
+    text-decoration: none;
+    color: white;
+  }
+
+  .bottomfixed{
+    background-color: #EDE6DB;
+    position: fixed;
+    bottom:0;
+    width: 95%;
+    z-index: 99999999;
+    
+    overflow: hidden;
+    display:flex;
+    justify-content: space-evenly;
+    height: 40px;
+    padding-top: 13px;
+    font-weight: bold;
+    
+    color: #1D5C63;
+    left: 9px;
+    /* border:2px solid black; */
+  
+    
+  }
+
+
+
+ 

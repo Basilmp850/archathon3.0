@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EDE6DB;
+}
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+.indiartsection{
+   
+    border-bottom : 1px solid rgb(182, 170, 170);
+    padding: 15px;
+    text-align: center;
+    color: #1A3C40;
+    background-color: #f1f0ed;
+    
+
+
+}
+
+
+.indiartpara{
+
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+img{
+
+    margin-top: 12px;
+    
+    
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.roundimagesflex{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border-bottom: 2px solid black; */
+    padding-bottom : 6px;
+}
+
+.img1,.img2,.img3,.img4{
+   
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    width: 70px;
+    
+      
+}
+
+.imgcontainer{
+    width:95%;
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 320px;
+}
+.imgcontainer img{
+    justify-content: center;
+    width:100%;
+
+}
+
+.likecommentreport{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.likecommentreport button{
+    width: 33%;
+    padding: 5px;
+    border:none;
+    background-color: #EDE6DB;
+    font-weight: bold;
+}
+
+.videocontainer{
+    width:95%;
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 250px;
+}
+ion-icon{
+    vertical-align: middle;
+    display: none;
+}
+.avatar{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+.bottomfixed{
+    background-color: #EDE6DB;
+    position: fixed;
+    bottom:0;
+    width: 95%;
+    z-index: 99999999;
+    
+    overflow: hidden;
+    display:flex;
+    justify-content: space-evenly;
+    height: 40px;
+    padding-top: 13px;
+    font-weight: bold;
+    
+    color: #1D5C63;
+    left: 9px;
+    /* border:2px solid black; */
+
+    
+}
+
+footer{
+    padding-top: 35px;
+}
+
+
+
+
